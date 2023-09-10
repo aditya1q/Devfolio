@@ -39,14 +39,14 @@ const Skills = () => {
             </h1>
           </div>
           <div className={`mt-10 grid grid-cols-3 md:grid-cols-4 place-items-center gap-16 ${isSkillsVisible ? 'animate-fadeIn-8' : ''}`}>
-            <img src="/assests/html.svg" alt="" className='w-16 sm:w-20 h-16 sm:h-20'  />
-            <img src="/assests/css.svg" alt="" className='w-16 sm:w-20 h-16 sm:h-20' />
-            <img src="/assests/javascript.svg" alt="" className='w-16 sm:w-20 h-16 sm:h-20' />
-            <img src="/assests/bootstrap.svg" alt="" className='w-16 sm:w-20 h-16 sm:h-20' />
-            <img src="/assests/nextjs.svg" alt="" className='w-16 sm:w-20 h-16 sm:h-20'/>
-            <img src="/assests/react.svg" alt="" className='w-16 sm:w-20 h-16 sm:h-20' />
+            <img src="/assests/html.svg" alt="" className='w-12 sm:w-20 h-12 sm:h-20' />
+            <img src="/assests/css.svg" alt="" className='w-12 sm:w-20 h-12 sm:h-20' />
+            <img src="/assests/javascript.svg" alt="" className='w-12 sm:w-20 h-12 sm:h-20' />
+            <img src="/assests/bootstrap.svg" alt="" className='w-12 sm:w-20 h-12 sm:h-20' />
+            <img src="/assests/nextjs.svg" alt="" className='w-12 sm:w-20 h-12 sm:h-20' />
+            <img src="/assests/react.svg" alt="" className='w-12 sm:w-20 h-12 sm:h-20' />
             <img src="/assests/tailwindcss.svg" alt="" className='w-16 sm:w-20 h-16 sm:h-20' />
-            <img src="/assests/sass.svg" alt="" className='w-16 sm:w-20 h-16 sm:h-20' />
+            <img src="/assests/sass.svg" alt="" className='w-12 sm:w-20 h-12 sm:h-20' />
           </div>
         </div>
       </Element>
