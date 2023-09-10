@@ -8,12 +8,12 @@ import TopNavbar from './Topnavbar'
 const Hero = () => {
   return (
     <>
-      <div className='z-[1] flex flex-col lg:flex-row bg-black text-white justify-center gap-20 lg:justify-around items-center h-[150vh] lg:h-screen'>
+      <div className='z-[1] flex flex-col lg:flex-row bg-black text-white justify-center gap-20 lg:justify-around items-center h-[130vh] sm:h-[140vh] md:h-[150vh] lg:h-screen'>
         <div className='flex flex-col text-center items-center justify-center gap-5'>
           <h1 className='bg-[#131921] text-white py-2 px-4 font-nunito animate-fadeIn-1'>Welcome to my Portfolio</h1>
           <h1 className='text-lg font-medium animate-fadeIn-2'>Hellow It's Me</h1>
           <h1 className='text-2xl font-bold animate-fadeIn-3'>Aditya Tiwari</h1>
-          <h1 className='font-semibold text-lg'>And I'm <span className='animate-fadeIn-4 font-bold'>FrontEnd Developer</span></h1>
+          <h1 className='font-semibold text-lg'>And I'm <span className='animate-fadeIn-4 font-bold '>FrontEnd Developer</span></h1>
           <p className='desc w-[70%] mdl:w-[50%] text-[15px] font-nunito animate-fadeIn-5'>Welcome to my front-end developer portfolio. I'm a passionate and aspiring front-end developer showcasing my projects and dedication to creating engaging web experiences.</p>
           <div className='flex items-center justify-center gap-4'>
             <Link legacyBehavior href='https://www.dropbox.com/scl/fi/9hfvt4a5lp1wyolzqz5gd/ADITYA.pdf?rlkey=vlkm8dx2uqgdhfb01crrxnyh2&dl=0' className='mt-10'>
