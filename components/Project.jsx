@@ -105,8 +105,8 @@ export default function Projects() {
                     className={`mt-16 lg:mt-24 text-black border-t pb-20 ${isProjectsVisible ? 'animate-fadeIn-9' : ''
                         }`}
                 >
-                    <h1 className="text-2xl font-bold text-center">Projects</h1>
-                    <div className="grid md:grid-cols-2 xl:grid-cols-3 mt-8 gap-12 text-sm md:text-base place-items-center">
+                    <h1 className="text-2xl font-bold text-center text-white pt-6">Projects</h1>
+                    <div className="grid md:grid-cols-2 xl:grid-cols-3 mt-8 gap-12 text-sm md:text-base place-items-center shadow-[3xl]">
                         {projects.map((item) => (
                             <div
                                 key={item.id}
