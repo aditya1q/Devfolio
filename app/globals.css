@@ -19,6 +19,20 @@
   -webkit-text-fill-color: transparent;
 }
 
+@keyframes blink {
+  0% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
+}
+
+.down-arrow {
+  animation: blink 3s infinite;
+}
+
 @keyframes fadeIn-2 {
   0% {
     opacity: 0;
