@@ -59,8 +59,9 @@ const About = () => {
                 </div>
                 <div className={`text-center mt-10 flex items-center justify-center ${isAboutVisible ? 'animate-fadeIn-7' : ''}`}>
                   <p className='text-xs md:text-sm text-center w-[60%] lg:w-[40%] text-gray-400'>
-                    I'm fresher, and I don't have any work experience in any company now, but
-                    I've a good understanding and knowledge in frontend development, and I've created many projects using React.js and Next.js, and for styling, I'm using Tailwind CSS.
+                    Successfully completed a six-month Full Stack Development internship at Ensino Research and Development Private Limited in Dehradun, where I gained valuable
+                    exposure to both frontend and backend technologies. While I had the opportunity to work on full stack development, my passion led me to specialize in frontend development.
+                     I focused on refining my skills in HTML, CSS, JavaScript and various frontend frameworks, with a primary focus on creating user- friendly and visually appealing interfaces.
                   </p>
                 </div>
               </div>
