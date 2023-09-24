@@ -31,7 +31,7 @@ const About = () => {
       <Element name="about">
         <div
           id="about"
-          className={`border-t flex flex-col h-[146vh] lg:h-screen text-white text-center gap-2 ${
+          className={`border-t flex flex-col h-[155vh] lg:h-screen text-white text-center gap-2 ${
             isAboutVisible ? 'animate-fadeIn-7' : ''
           }`}
         >
