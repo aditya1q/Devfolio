@@ -58,7 +58,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className={`text-center mt-10 flex items-center justify-center ${isAboutVisible ? 'animate-fadeIn-7' : ''}`}>
-                  <p className='text-xs md:text-sm text-center w-[60%] lg:w-[40%] text-gray-400'>
+                  <p className='text-xs md:text-sm text-center w-[75%] md:w-[60%] lg:w-[40%] text-gray-400'>
                     Successfully completed a six-month Full Stack Development internship at Ensino Research and Development Private Limited in Dehradun, where I gained valuable
                     exposure to both frontend and backend technologies. While I had the opportunity to work on full stack development, my passion led me to specialize in frontend development.
                      I focused on refining my skills in HTML, CSS, JavaScript and various frontend frameworks, with a primary focus on creating user- friendly and visually appealing interfaces.
