@@ -37,10 +37,10 @@ const About = () => {
         >
           <h1 className='text-xs mt-8'>Get to know more</h1>
           <h1 className='text-3xl font-sans2 shadow-2xl'>About Me</h1>
-          <div className='flex items-center justify-center h-screen mt-16'>
+          <div className='flex items-center justify-center h-screen mt-20 md:mt-16'>
             <div className='flex items-center justify-center gap-20 lg:gap-32 flex-col lg:flex-row'>
               <div className='flex items-center'>
-                <img src="/assests/dev.png" alt="" className='w-72 md:w-96 ml-0 lg:ml-24 lg:w-full' />
+                <img src="/assests/dev.png" alt="" className='w-64 md:w-72 md:w-96 ml-0 lg:ml-24 lg:w-full' />
               </div>
               <div className='flex flex-col justify-center items-center'>
                 <div className='flex items-center justify-center gap-10 md:flex-row flex-col'>
