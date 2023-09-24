@@ -36,7 +36,7 @@ const Navbar = () => {
                     <img src="/assests/close.svg" width={30} height={30} alt="logo" />
                   ) : (
                     <img
-                      src="/assests/hamburger-menu.svg"
+                      src="/assests/Hamburger-menu.svg"
                       width={30}
                       height={30}
                       alt="logo"
