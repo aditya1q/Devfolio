@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const TopNavbar = () => {
     return (
-        <div className='w-[410px] sm:min-w-full bg-black h-16 pt-5 flex items-center justify-around'>
+        <div className='w-[425px] sm:min-w-full bg-black h-16 pt-5 flex items-center justify-around'>
             <nav className='text-white flex items-center justify-center gap-8'>
                 <Link href="" legacyBehavior>
                     <a
