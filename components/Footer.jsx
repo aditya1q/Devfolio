@@ -6,7 +6,7 @@ import { BiLogoGmail, BiLocationPlus } from 'react-icons/bi';
 const Footer = () => {
     return (
         <>
-            <div id='footer' className='w-full bg-black border-t'>
+            <div id='footer' className='w-[550px] sm:min-w-full bg-black border-t'>
                 <Link legacyBehavior href=''>
                     <a href='#' className='bg-black p-3 font-semibold text-white flex items-center justify-center'>Back to top</a>
                 </Link>
